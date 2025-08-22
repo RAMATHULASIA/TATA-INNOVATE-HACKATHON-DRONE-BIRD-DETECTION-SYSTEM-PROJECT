@@ -1,0 +1,60 @@
+{
+  "short_name": "TATA AI Co-pilot",
+  "name": "TATA AI Co-pilot for Embedded Software Design",
+  "description": "Generate, analyze, and optimize embedded software for smart vehicles with AI assistance",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1B4F72",
+  "background_color": "#FFFFFF",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": [
+    "productivity",
+    "developer",
+    "automotive"
+  ],
+  "shortcuts": [
+    {
+      "name": "Generate Code",
+      "short_name": "Generate",
+      "description": "Generate embedded software code",
+      "url": "/?action=generate",
+      "icons": [
+        {
+          "src": "favicon.ico",
+          "sizes": "64x64"
+        }
+      ]
+    },
+    {
+      "name": "Analyze Code",
+      "short_name": "Analyze",
+      "description": "Analyze existing code for issues",
+      "url": "/?action=analyze",
+      "icons": [
+        {
+          "src": "favicon.ico",
+          "sizes": "64x64"
+        }
+      ]
+    }
+  ]
+}

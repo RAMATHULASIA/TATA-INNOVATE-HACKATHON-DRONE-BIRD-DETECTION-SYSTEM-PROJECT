@@ -1,0 +1,64 @@
+# Core AI/ML dependencies
+torch>=2.0.0
+transformers>=4.30.0
+huggingface-hub>=0.15.0
+accelerate>=0.20.0
+datasets>=2.12.0
+
+# Natural Language Processing
+nltk>=3.8
+spacy>=3.6.0
+sentence-transformers>=2.2.0
+
+# Code Analysis and Generation
+tree-sitter>=0.20.0
+tree-sitter-c>=0.20.0
+tree-sitter-cpp>=0.20.0
+ast-tools>=0.1.0
+libclang>=16.0.0
+
+# Embedded Systems Integration
+pyserial>=3.5
+python-can>=4.2.0
+cantools>=37.0.0
+pyvisa>=1.13.0
+
+# Web API and CLI
+fastapi>=0.100.0
+uvicorn>=0.22.0
+click>=8.1.0
+rich>=13.0.0
+typer>=0.9.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+pydantic>=2.0.0
+pyyaml>=6.0
+
+# Development and Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.4.0
+pre-commit>=3.3.0
+
+# Documentation
+sphinx>=7.0.0
+sphinx-rtd-theme>=1.2.0
+mkdocs>=1.5.0
+mkdocs-material>=9.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+loguru>=0.7.0
+tqdm>=4.65.0
+requests>=2.31.0
+aiohttp>=3.8.0
+
+# Web Application
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+python-multipart>=0.0.6
